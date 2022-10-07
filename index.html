@@ -4,9 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amber's Portfolio Site</title>
+    <title>Amber's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://kit.fontawesome.com/961bb11b12.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
+<header>
+    <div id="logo">
+        <img id="logoPic" src="/pics/amber logo.jpg" alt="logo">
+    </div>    
+    <nav>
+        <ul>
+            <li><a class="menu" href="#home">Home</a></li>
+            <li><a class="menu" href="#about">About</a></li>
+            <li><a class="menu" href="#skills">Skills</a></li>
+            <li><a class="menu" href="#projects">Projects</a></li>
+            <li><a class="menu" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
-    <h1>Amber Harris</h1>
+    <main id="home">
+            <img id="profile" src="./pics/profilepic.gif" alt="profile">
+            <div id="animation">
+                <div id="quotes"><i class="fa-sharp fa-solid fa-quote-left fa-xl"></i></div>
+                <h3><span></span></h3>
+            </div>
+    </main>
+        <section id="about">
+            <h1>About Me</h1>
+            <div class="about">
+                <img id='aboutPic' src="/pics/sanFran.jpg" alt="san francisco">
+                <p>Hi! My name is Amber Harris. I have fulfilled my childhood dream of being a devoted mother. I have 2 girls and I want to be there for them whenever they need me. Now that they are a little older, I can’t just sit around, waiting to be needed. I want to show my girls that anything is possible if you work hard enough. I have a passion for learning and trying new things. I feel so satisfied when I can complete a challenge successfully. 
+                <br><br>
+                In my spare time...which is rare, I enjoy remodeling houses and furniture. Painting walls is therapeutic to me. (I know it's weird!) I also love traveling and learning about history and other cultures. Architecture and design are awe-inspiring. I love to learn how things were built, what was happening that influenced the design, and imagining what life would've been like when it was new. Add in some authentic food and it turns into the best vacation ever! Anything that allows me to continue to do this with my family is definitely worth keeping around. 
+                <br><br>    
+                I have chosen to go into the tech industry because it is growing and evolving so rapidly. The possibilities for learning new things and accomplishing great feats is never ending. There is no room for boredom. Onto the next adventure! 
+                </p>
+            </div>
+        </section>
+        <section id="skills">
+            <h1>Skills</h1>
+            <h4>Languages</h4>
+                <ul class="skillset">
+                    <li><i class="fa-brands fa-html5 fa-xl"></i> HTML</li>
+                    <li><i class="fa-brands fa-css3-alt fa-xl"></i> CSS</li>
+                    <li><i class="fa-brands fa-square-js fa-xl"></i> Javascript</li>
+                    <li><i class="fa fa-database fa-xl"></i> SQL</li>
+                </ul>
+            <!-- <h4>Tools</h4>
+                <ul class="skillset">
+                    <li><i class="devicon-vscode-plain"></i> vscode</li>
+                    <li><i class="fa-brands fa-square-git fa-xl"></i> Git</li>
+                    <li><i class="fa-brands fa-github fa-xl"></i> Github</li>
+                    <li><i class="fa-brands fa-figma fa-xl"></i> Figma</li>
+                    <li><i class="fa-brands fa-codepen fa-xl"></i> Codepen</li>
+                    <li><i class="devicon-heroku-original"></i> Heroku</li>
+                    <li><i class="fa-brands fa-trello fa-xl"></i> Trello</li> 
+                </ul>                     
+                <ul class="skillset">
+                    <li>Postman</li>
+                    <li>Rollbar</li>
+                    <li>DBDesigner</li>
+                    <li>pgweb</li>
+                    <li>Slack</li>
+                    <li>Discord</li>
+                    <li>Monday.com</li>
+                </ul> -->
+            <h4>Software</h4>
+                <ul class="skillset">
+                    <li><i class="fa-brands fa-microsoft fa-xl"></i> Microsoft Office</li>
+                    <li>Excel VBA</li>   
+                    <li>Quickbooks</li> 
+                    <li>Zed Axis</li>  
+                </ul>
+                <ul class="skillset">    
+                    <li>Studio Designer</li>   
+                    <li>CoConstruct</li>   
+                    <li>Greater Giving</li>   
+                    <li>AutoCad</li>   
+                    <li>Dropbox</li>
+                </ul>   
+            <h4>Libraries - Platforms - Dependencies</h4>
+                <ul class="skillset">
+                    <li><i class="fa-brands fa-node-js fa-xl"></i> Node.js</li>
+                    <li><i class="devicon-postgresql-plain"></i> PostgreSQL</li>
+                    <li><i class="devicon-sequelize-plain"></i> Sequelize</li>
+                    <li><i class="devicon-selenium-original"></i> Selenium</li>
+                    <li>Axios</li>
+                    <li>Express</li>
+                    <li>Cors</li>
+                    <li>dotenv</li>
+                    <!-- <li>Chromedriver</li> -->
+                    <!-- <li>Jest</li> -->
+                    <!-- <li>Bcrypt</li> -->
+                </ul> 
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <section id="cards">
+                <div class="project">
+                    <h4>HTML/CSS Basics</h4>
+                    <a class="projimg proj1" href="https://codepen.io/amberlharris22/pen/BameaYa" target="_blank"></a>
+                    <p>This is a basic shopping website that is able to add items to a cart.</p>
+                    <ul>
+                        <li><a class="projLink" href="https://codepen.io/amberlharris22/pen/BameaYa" target="_blank"><i class="fa-brands fa-codepen fa-xl"></i> Codepen Repo</a></li>
+                    </ul>
+                </div>
+            <div class="project">
+                <h4>Foundations Capstone</h4>
+                <a class="projimg proj2" href="https://f28-capstone.herokuapp.com/" target="_blank"></a>
+                <p>This is an interactive website for a small business.  I used javascript, node.js, axios with express and cors dependencies, HTML & CSS</p>
+                <ul>
+                    <li><a class="projLink" href="https://www.youtube.com/watch?v=qXk6Hkk5rRk" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i>Demo</a></li>
+                    <li><a class="projLink" href="https://github.com/amberharris22/f28-Capstone" target="_blank"><i class="fa-brands fa-github fa-xl"></i>GitHub Repo</a></li>
+                </ul>
+            </div>
+        </section> 
+        </section>
+        <section id="contact">
+            <h1>Contact Me</h1>
+                <ul class="contList">
+                    <li><a class="contLink" href="https://www.linkedin.com/in/amberlharris22" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i> Linkedin</a></li>
+                    <li><i class="fa-solid fa-envelope fa-xl"></i> amberlharris22@gmail.com</li>
+                    <li><a class="contLink" href="https://github.com/amberharris22" target="_blank"><i class="fa-brands fa-github fa-xl"></i> GitHub</a></li>
+                    <li><i class="fa-solid fa-download fa-xl"></i> Resume</li>
+                </ul>
+        </section>
 </body>
 </html>

@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+#logo{
+    float: right;
+    margin: 20px;    
+}
+#logoPic{
+    width: 150px;
+    height: 130px;
+}
+nav{
+    background-color: #F2055C;
+    font-weight: 400;
+    font-size: 18px;
+    height: 60px;
+    padding-left: 120px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li, .projLink,.contLink{
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;    
+    text-decoration: none;
+    color: black;
+}
+.menu {
+    color: #f0d8e5;
+    text-decoration: none;
+}
+a:hover, .projLink:hover, .contLink:hover{
+    color: #f4a996;
+}
+#home, #skills, #contact{
+    background-image: url("/pics/banner.jpg"); 
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    scroll-margin-top: 59px;
+}
+#about, #projects {
+    height: 100vh;
+    background-color:rgba(244, 169, 150,.3);
+    scroll-margin-top: 59px;
+}
+#profile{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 40%;  
+}
+h3 {
+    color:#f0d8e5;
+}
+#animation{
+    position: relative;
+    float: right;
+    margin-top: 25%;
+    margin-right: 40px;
+    font-size: 20pt;
+    width: 50%; 
+}
+#quotes{
+    margin:10px auto;
+    width: 20%;
+    color: #f0d8e5;
+}
+span::before{
+    content: '"Just ask Amber. Around here we call her Jarvis."  -Tristen';
+    animation: animate infinite 30s;
+}
+@keyframes animate {
+    25%{
+        content: '"I’ve put her in that position because I can rely on her to always get the job done."  -Alan';
+    }
+    50%{
+        content: '"Is there anything you can’t do?" -Desee';
+    }
+    75%{
+        content:'"She is so good at staying calm and collected when things get stressful that she helps keep everyone else around here calm too." -Robin'; 
+    }
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+html{
+    scroll-behavior: smooth;
+  }
+h1{
+    padding: 30px;
+    font-size: 24pt;
+  }
+p{
+    padding: 0 40px;
+  }
+#aboutPic{
+    width: 40%;
+  }
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+  }
+i{
+    font-size: 20px;
+  }
+h4{
+    padding: 10px;
+    font-size: 16pt;
+  }
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.project{
+    border: 2px solid #F2055C;
+    height:300px;
+    /* border-radius: 15px; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+
+.projimg{
+    width: 60%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    background-size: contain;
+}
+.proj1{
+    background-image: url('/pics/sunshine.jpg');
+}
+.proj2{
+    background-image: URL('/pics/j&j.jpg');
+}
+.projimg:hover{
+    opacity: .7;
+}
+.contList{
+    display: flex;
+    flex-direction: column;
+}
