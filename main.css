@@ -159,6 +159,9 @@ h4{
 .proj2{
     background-image: URL('/pics/j&j.jpg');
 }
+.proj3{
+    background-image: URL('/pics/data_pic.jpg');
+}
 .projimg:hover{
     opacity: .7;
 }
