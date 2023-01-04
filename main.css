@@ -48,6 +48,7 @@ a:hover, .projLink:hover, .contLink:hover{
     height: 100vh;
     background-size: cover;
     scroll-margin-top: 59px;
+    overflow-x: auto;
 }
 #about, #projects {
     height: 100vh;
